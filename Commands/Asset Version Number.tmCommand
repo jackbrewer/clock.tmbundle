@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+&lt;?php
+$stdin = file_get_contents("php://stdin");
+
+define('TM_EXIT_SHOW_TOOLTIP', 206);
+function showTooltip($msg){
+  echo $msg;
+  exit(TM_EXIT_SHOW_TOOLTIP);
+}
+
+if(preg_match("/.(?'ext'jpg|bmp|jpeg|gif|png|tif|css|js|ttf|otf|svg|woff|eot)/",$stdin, $match)) {
+  echo preg_replace("/.(jpg|bmp|jpeg|gif|png|tif|css|js|ttf|otf|svg|woff|eot)/", ".".$match['ext']."?v=@VERSION-NUMBER@", $stdin);
+}
+
+else {
+  showTooltip("No valid file extension found");
+}
+?&gt;</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Asset Version Number</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.css, source.stylus</string>
+	<key>tabTrigger</key>
+	<string>?</string>
+	<key>uuid</key>
+	<string>7DC1A597-3AC0-44B6-BF88-909356150DD8</string>
+</dict>
+</plist>

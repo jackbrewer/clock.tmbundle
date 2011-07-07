@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>saveActiveFile</string>
+	<string>nop</string>
+	<key>command</key>
+	<string>sed 's/^[ 	]*$//'</string>
 	<key>input</key>
-	<string>none</string>
+	<string>document</string>
 	<key>name</key>
-	<string>Save Document</string>
+	<string>Delete Blank Line Tabs</string>
 	<key>output</key>
-	<string>discard</string>
+	<string>replaceDocument</string>
 	<key>uuid</key>
-	<string>1C0A85AE-3134-4E56-A601-51D539DD31CE</string>
+	<string>1F0CE9D6-8FA7-4146-8E2B-C74CB942589E</string>
 </dict>
 </plist>

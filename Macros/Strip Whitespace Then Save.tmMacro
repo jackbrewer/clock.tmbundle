@@ -42,9 +42,11 @@
 	<key>keyEquivalent</key>
 	<string>@s</string>
 	<key>name</key>
-	<string>Strip Whitespace Then Save</string>
+	<string>Strip Trailing Whitespace Then Save</string>
 	<key>scope</key>
 	<string>source.stylus, source.js</string>
+	<key>useGlobalClipboard</key>
+	<false/>
 	<key>uuid</key>
 	<string>DCED0D01-B222-4E32-A45C-8FC88A275BFC</string>
 </dict>

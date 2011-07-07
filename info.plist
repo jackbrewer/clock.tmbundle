@@ -2,6 +2,36 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>excludedItems</key>
+		<array>
+			<string>1C0A85AE-3134-4E56-A601-51D539DD31CE</string>
+		</array>
+		<key>items</key>
+		<array>
+			<string>3B4A96DB-2A35-4920-8766-82635A216FEA</string>
+			<string>------------------------------------</string>
+			<string>7DC1A597-3AC0-44B6-BF88-909356150DD8</string>
+			<string>------------------------------------</string>
+			<string>EDDF00DC-E6F8-4825-9899-8DED4FF2DE2C</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>3B4A96DB-2A35-4920-8766-82635A216FEA</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>DCED0D01-B222-4E32-A45C-8FC88A275BFC</string>
+					<string>------------------------------------</string>
+					<string>1F0CE9D6-8FA7-4146-8E2B-C74CB942589E</string>
+					<string>8941521B-3130-4ED0-95E0-F0F10281FAE3</string>
+				</array>
+				<key>name</key>
+				<string>Formatting</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Clock</string>
 	<key>ordering</key>
@@ -9,6 +39,9 @@
 		<string>EDDF00DC-E6F8-4825-9899-8DED4FF2DE2C</string>
 		<string>DCED0D01-B222-4E32-A45C-8FC88A275BFC</string>
 		<string>1C0A85AE-3134-4E56-A601-51D539DD31CE</string>
+		<string>7DC1A597-3AC0-44B6-BF88-909356150DD8</string>
+		<string>1F0CE9D6-8FA7-4146-8E2B-C74CB942589E</string>
+		<string>8941521B-3130-4ED0-95E0-F0F10281FAE3</string>
 	</array>
 	<key>uuid</key>
 	<string>096032EF-3139-4E4F-9131-500552837078</string>
