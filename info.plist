@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Clock</string>
+	<key>ordering</key>
+	<array>
+		<string>EDDF00DC-E6F8-4825-9899-8DED4FF2DE2C</string>
+		<string>DCED0D01-B222-4E32-A45C-8FC88A275BFC</string>
+		<string>1C0A85AE-3134-4E56-A601-51D539DD31CE</string>
+	</array>
+	<key>uuid</key>
+	<string>096032EF-3139-4E4F-9131-500552837078</string>
+</dict>
+</plist>
