@@ -12,6 +12,8 @@
 sed '/./,/^$/!d'</string>
 	<key>input</key>
 	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^@f</string>
 	<key>name</key>
 	<string>Delete Consecutive Blank Lines</string>
 	<key>output</key>

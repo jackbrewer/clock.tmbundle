@@ -32,7 +32,7 @@ else {
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>
-	<string>source.css, source.stylus</string>
+	<string>source.css, source.stylus, source.jade</string>
 	<key>tabTrigger</key>
 	<string>?</string>
 	<key>uuid</key>

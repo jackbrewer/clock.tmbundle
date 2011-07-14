@@ -5,16 +5,16 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>sed 's/^[ 	]*$//'</string>
+	<string>perl -pe 's/[\t ]+$//g'</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
 	<string>^@f</string>
 	<key>name</key>
-	<string>Delete Blank Line Tabs</string>
+	<string>Remove Trailing Whitespace</string>
 	<key>output</key>
 	<string>replaceDocument</string>
 	<key>uuid</key>
-	<string>1F0CE9D6-8FA7-4146-8E2B-C74CB942589E</string>
+	<string>F209F473-35F3-419F-9DEA-12ECB5D7E0C3</string>
 </dict>
 </plist>

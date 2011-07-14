@@ -3,14 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>saveActiveFile</string>
+	<string>nop</string>
+	<key>command</key>
+	<string>sed -e 's/\( \)\{2,\}/ /g'</string>
 	<key>input</key>
-	<string>none</string>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^@f</string>
 	<key>name</key>
-	<string>Save Document</string>
+	<string>Remove Double Spaces</string>
 	<key>output</key>
-	<string>discard</string>
+	<string>replaceDocument</string>
 	<key>uuid</key>
-	<string>1C0A85AE-3134-4E56-A601-51D539DD31CE</string>
+	<string>25763A3B-020C-4ACE-B51D-6BD660351584</string>
 </dict>
 </plist>
